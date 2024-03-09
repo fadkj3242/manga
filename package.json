@@ -25,7 +25,8 @@
     "devStart": "nodemon -e .pug,json,mjs,js,css index.js",
     "migrate": "node ./mainJS/migrateDatabase.js",
     "start": "node ./index.js",
-    "newManga": "node ./mainJS/checkForNewManga.js"
+    "newManga": "node ./mainJS/checkForNewManga.js",
+    "build": "npm install"
   },
   "keywords": [],
   "author": "",
